@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('//fonts/Inter-Regular.ttf') format('truetype'),
+        url('./fonts/Inter-Bold.ttf') format('truetype');
+    font-weight: 300 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: rgb(25, 25, 25);
+}
+
+@font-face {
+    font-family: 'Inter Variable';
+    src: url('./fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Inter Variable', sans-serif;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-box {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background: #2e2e2e;
+    text-align: center;
+    width: 600px;
+    height: 850px;
+    transform: translatey(150px);
+}
+
+.main-box img {
+    margin: 0 auto;
+    margin-top: 40px;
+    /* تحديد المسافة العلوية */
+    padding: 15px;
+    border-radius: 50%;
+    width: 120px;
+    max-width: 100%;
+    /* لمنع تجاوز الصورة عرض الصفحة */
+    transform: translateY(0);
+    /* لتثبيت المارجن العلوي */
+}
+
+.main-box .name h1 {
+    color: white;
+}
+
+.main-box .name h4 {
+    color: greenyellow;
+    line-height: 1px;
+    font-size: 19px;
+}
+
+.main-box .name span {
+    color: rgb(222, 222, 222);
+    display: block;
+    margin-top: 45px;
+    font-size: 17px;
+}
+
+.social-licks-boxs .box {
+    display: block;
+    width: 500px;
+    margin: 30px auto 10px;
+    background-color: rgba(108, 108, 108, 0.5);
+    border-radius: 10px;
+}
+
+.social-licks-boxs .box h2 {
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.social-licks-boxs .box:hover {
+    background-color: greenyellow;
+}
+
+.social-licks-boxs .box h2:hover {
+    color: black;
+}
